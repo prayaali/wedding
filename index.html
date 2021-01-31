@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body> 
+<body>
     <section id="navbar">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <nav class="navbar navbar-expand-md navbar-light w-100">
                     <a class="navbar-brand" href="#"></a>
@@ -34,17 +36,17 @@
                                 <a class="nav-link" href="#photos">PHOTOS</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#groomsmen">GROOMSMAN</a>
+                                <a class="nav-link" href="#groomsmen">Greetings</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#bridemaid">BRIDESMAIND</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <a class="nav-link" href="#venue">When & Where</a>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a class="nav-link" href="#">CONTACT</a>
-                            </li>
+                            </li> -->
                             <li class="nav-item">
                                 <img src="img/hearts.png" alt="" class="hearts-icon">
                             </li>
@@ -55,74 +57,83 @@
         </div>
     </section>
 
-    <section id="banner" class="">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="banner-content">
-                    <h1>PRASAD & SAYALI</h1>
-                    <p class="hearts-underline"><img src="img/hearts.png" alt="" class="hearts-icon"></p>
-                    <p>INVITING YOU</p>
-                    <p>TO OUR WEDDING CELEBRATION</p>
-                    <!-- <p>21-02-2020</p> -->
-                    <section>
-                        <div class="wrapper">
-
-                            <hgroup>
-                                <h1>Save the date</h1>
-                            </hgroup>
-
-                            <div id="countdown">
-                                <div class="cd-box">
-                                    <p class="numbers days">10</p><br>
-                                    <p class="strings timeRefDays">Days</p>
-                                </div>
-                                <div class="cd-box">
-                                    <p class="numbers hours">00</p><br>
-                                    <p class="strings timeRefHours">Hours</p>
-                                </div>
-                                <div class="cd-box">
-                                    <p class="numbers minutes">60</p><br>
-                                    <p class="strings timeRefMinutes">Minutes</p>
-                                </div>
-                                <div class="cd-box">
-                                    <p class="numbers seconds">60</p><br>
-                                    <p class="strings timeRefSeconds">Seconds</p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-            </div>
+    <section id="banner" class="wow slideInUp">
+        <div class="banner-content">
+            <h1>PRASAD & SAYALI</h1>
+            <p class="hearts-underline"><img src="img/hearts.png" alt="" class="hearts-icon"></p>
+            <h1>ARE GETTING MARRIED</h1>
+            <!-- <p>21-02-2020</p> -->
+        </div>
     </section>
 
-    <section id="our_stories" class="py-3">
+    <section id="our_stories" class="wow slideInUp py-5" data-aos="fade-up" data-aos-duration="1200">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 text-center">
-                    <p>GROOM</p>
+                    <label>HANDSOME GROOM</label>
                     <h3>PRASAD RANE</h3>
                     <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span></p>
-                    <img src="img/PRASAD.jpg" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <img src="img/PRASAD.jpg" class="couple-pic" alt="">
+                    <p class="about-couple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                 </div>
                 <div class="col-sm-6 text-center">
-                    <img src="img/SAYALI.jpg" alt="">
-                    <p>BRIDE</p>
+                    <label>SWEET BRIDE</label>
                     <h3>SAYALI SALUNKHE</h3>
                     <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span></p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad avdv veniam, quis nostrud exercitation ullamco laboris...</p>
+                    <img src="img/SAYALI.jpg" class="couple-pic" alt="">
+                    <p class="about-couple">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="photos" class="py-5">
+    <section id="countdown-section" class="wow slideInUp" data-aos="fade-up" data-aos-duration="2400">
+        <div class="container">
+            <div class="wrapper">
+                <div class="section-heading mx-auto mb-4 text-center">
+                    <h3>And the coutdown begins...</h3>
+                    <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span>
+                    </p>
+                </div>
+
+                <div id="countdown">
+                    <div class="cd-box">
+                        <p class="numbers days">10</p><br>
+                        <p class="strings timeRefDays">Days</p>
+                    </div>
+                    <div class="cd-box">
+                        <p class="numbers hours">00</p><br>
+                        <p class="strings timeRefHours">Hours</p>
+                    </div>
+                    <div class="countdown-img">
+                        <img src="img/counter.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="cd-box">
+                        <p class="numbers minutes">60</p><br>
+                        <p class="strings timeRefMinutes">Minutes</p>
+                    </div>
+                    <div class="cd-box">
+                        <p class="numbers seconds">60</p><br>
+                        <p class="strings timeRefSeconds">Seconds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="date-area" class="wow slideInUp" data-aos="fade-up" data-aos-duration="3600">
+        <div class="container">
+            <div class="row justify-content-between date-section flex-row">
+                <h3 class="text-white">Wedding Day : 21 February 2021 at 11.20 am</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="photos" class="wow slideInUp py-5" data-aos="fade-up" data-aos-duration="4800">
         <div class="container">
             <div class="row">
                 <div class="section-heading m-auto text-center">
-                    <h3>PHOTOS</h3>
+                    <h3>Gallery</h3>
                     <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span></p>
                 </div>
                 <div class="owl-carousel">
@@ -167,12 +178,12 @@
         </div>
     </section>
 
-    <section id="groomsmen" class="py-5">
+    <section id="groomsmen" class="wow slideInUp py-5" data-aos="fade-up" data-aos-duration="6000">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-heading m-auto text-center">
-                        <h3>Groomsmen</h3>
+                        <h3>Sweet messages</h3>
                         <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span>
                         </p>
                     </div>
@@ -181,51 +192,61 @@
             <div class="row">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="m-auto text-center w-25">
-                                    <img src="img/02-warren-duthie.png" alt="">
-                                </div>
-                            </div>
-                            <div class="col-sm-6 d-flex align-items-center">
-                                <div class="person">
-                                    <div class="name">Pepper Lang</div>
-                                    <div class="title">Best Man</div>
-                                    <div class="bio">I have known Pepper my whole life and he is my best friend in the
-                                        world. We grew up in New Mexico playing guns, dressing up like girls (his idea),
-                                        and
-                                        just making the most of the time we had together. I lived with Pepper after
-                                        college
-                                        for 2 years and it was such an amazing experience having my childhood friend as
-                                        a
-                                        roommate when I was an adult. If you see him at the wedding make sure to ask him
-                                        why
-                                        he is my best man.</div>
+                        <div class="testimony-wrap p-4">
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+                                    and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(img/SAYALI.jpg)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="m-auto text-center w-25">
-                                    <img src="img/02-warren-duthie.png" alt="">
+                        <div class="testimony-wrap p-4">
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+                                    and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(img/SAYALI.jpg)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-sm-6 d-flex align-items-center">
-                                <div class="person">
-                                    <div class="name">Pepper Lang</div>
-                                    <div class="title">Best Man</div>
-                                    <div class="bio">I have known Pepper my whole life and he is my best friend in the
-                                        world. We grew up in New Mexico playing guns, dressing up like girls (his idea),
-                                        and
-                                        just making the most of the time we had together. I lived with Pepper after
-                                        college
-                                        for 2 years and it was such an amazing experience having my childhood friend as
-                                        a
-                                        roommate when I was an adult. If you see him at the wedding make sure to ask him
-                                        why
-                                        he is my best man.</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap p-4">
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+                                    and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(img/SAYALI.jpg)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="testimony-wrap p-4">
+                            <div class="text">
+                                <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia
+                                    and Consonantia, there live the blind texts.</p>
+                                <div class="d-flex align-items-center">
+                                    <div class="user-img" style="background-image: url(img/SAYALI.jpg)"></div>
+                                    <div class="pl-3">
+                                        <p class="name">Roger Scott</p>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -235,7 +256,56 @@
         </div>
     </section>
 
-    <section id="bridemaid" class="py-5">
+    <section id="venue" class="wow slideInUp py-5" data-aos="fade-up" data-aos-duration="7200">
+        <div class="container">
+            <div class="row">
+                <div class="section-heading mx-auto mb-4 text-center">
+                    <h3>When & Where</h3>
+                    <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15090.934190577218!2d72.82717486977538!3d18.98737140000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7ce58f1b7e7f7%3A0x3d9342254632cf4e!2sMamma%20Bai%20School%20%2F%20Banquet!5e0!3m2!1sen!2sin!4v1612085733719!5m2!1sen!2sin"
+                        width="100%" height="300px" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-sm-7 align-items-center d-flex">
+                    <div class="info-content">
+                        <div class="meta">
+                            <p><b>Date</b> : Friday, 21 February 2021</p>
+                            <p><b>Time</b> : 11.20am</p>
+                            <p><b>Address</b> : 63, Opp. Bawla masjid, Dr Baba Saheb Ambedkar Rd, beside post office,
+                                Chinchpokli, Mumbai, Maharashtra 400012.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-heading m-auto text-center">
+                        <h3>When & Where</h3>
+                        <p class="hearts-underline"><span><img src="img/hearts.png" alt="" class="hearts-icon"></span>
+                        </p>
+                    </div>
+                </div>
+                <div id="when" class="box1-top">
+                    <div class="box1-bottom">
+                        <div class="box1-middle">
+                            <h3>Sunday, March 29, 2021</h3>
+                            <p> Shehnai Hall, Service Road, Shahid Mangal Pandey Road, Louis Wadl, Thane-West <br />
+                                <b>TIME</b>: 6:30 PM - 9.30 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- <section id="bridemaid" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -301,9 +371,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="venue" class="py-3">
+    <!-- <section id="venue" class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
@@ -322,17 +392,9 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div id="when" class="box1-top">
-                    <div class="box1-bottom">
-                        <div class="box1-middle">
-                            <h3>Place</h3>
-                            <p>Saturday, March 26, 2011<br>5:30 pm</p>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
-    </section>
+    </section> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
@@ -340,20 +402,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/owl.carousel2.thumbs@0.1.8/dist/owl.carousel2.thumbs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+    <script>
+        AOS.init();
+    </script>
 
     <script>
         $('#groomsmen .owl-carousel, #bridemaid .owl-carousel').owlCarousel({
             loop: true,
-            margin: 10,
+            margin: 20,
+            dots: true,
             responsive: {
                 0: {
                     items: 1
                 },
                 600: {
-                    items: 1
+                    items: 2
                 },
                 1000: {
-                    items: 1
+                    items: 3
                 }
             }
         });
@@ -442,7 +511,7 @@
                 }
                 //
                 $("#countdown").countdown({
-                    date: "29 February 2021 23:59:59", // change date/time here - do not change the format!
+                    date: "21 February 2021 23:59:59", // change date/time here - do not change the format!
                     format: "on"
                 });
             });
