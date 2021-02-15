@@ -13,12 +13,12 @@ body {
     /* font-family: 'Barlow Condensed', sans-serif !important; */
     /* font-family: georgia; */
     font-family: 'Poppins', sans-serif;
-    background-image: url(../img/footer-bg.jpg);
+    /* background-image: url(../img/footer-bg.jpg); */
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;
-    padding-bottom: 650px;
+    /* padding-bottom: 650px; */
     /* background-color: #f2f1ed; */
 }
 
@@ -204,9 +204,9 @@ section h1 {
     border-image-slice: 1;
     border-width: 10px;
     border-image-source: linear-gradient(45deg, red, purple);
-    border-radius: 10px;
+    border-radius: 50%;
     background: linear-gradient(45deg, red, purple);
-    width: 100%;
+    width: 60%;
 }
 
 .about-couple {
@@ -356,8 +356,9 @@ div.cd-box {
 }
 
 #photos button.owl-thumb-item img {
-    width: 200px;
-    height: auto;
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
 }
 
 #photos .owl-carousel.owl-theme .owl-dots .owl-dot.active span,
