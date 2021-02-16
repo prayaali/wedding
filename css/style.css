@@ -142,7 +142,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .banner-content h1 {
@@ -517,9 +517,9 @@ div.cd-box {
         padding-top: 5rem !important;
     }
 
-    /* body {
-        padding-bottom: 450px;
-    } */
+    .banner-content {
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -533,9 +533,10 @@ div.cd-box {
         padding-top: 3rem !important;
     }
 
-    /* body {
-        padding-bottom: 400px;
-    } */
+    .couple-pic {
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
@@ -550,6 +551,7 @@ div.cd-box {
 
     .banner-content h1 {
         font-size: 40px;
+        margin-bottom: 0;
     }
 
     #our_stories .col-sm-6 {
