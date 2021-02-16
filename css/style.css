@@ -537,6 +537,10 @@ div.cd-box {
         width: 80%;
     }
 
+    .testimony-wrap .text {
+        overflow: auto;
+    }
+
 }
 
 @media screen and (max-width: 767px) and (min-width: 320px) {
