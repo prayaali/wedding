@@ -1,11 +1,22 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
 
 
 @font-face {
     font-family: 'Gobold Regular';
     src: url('../fonts/gobold\ extra1.ttf');
+}
+
+@font-face {
+    font-family: 'Lobster Regular';
+    src: url('../fonts/Lobster-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Pacifico Regular';
+    src: url('../fonts/Pacifico-Regular.ttf');
 }
 
 body {
@@ -108,12 +119,12 @@ body {
 }
 
 #banner {
-    background-image: url(../img/banner-bg.jpg);
+    background-image: url(../img/banner-new.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +137,7 @@ body {
     /* margin: 5rem auto; */
     padding: 5rem 0;
     color: #fff;
-    background-color: #00000054;
+    background-color: #00000044;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -136,6 +147,7 @@ body {
 
 .banner-content h1 {
     font-size: 60px;
+    font-family: 'Pacifico Regular';
 }
 
 .banner-content p {
@@ -209,7 +221,7 @@ section h1 {
     border-image-slice: 1;
     border-width: 8px;
     border-image-source: linear-gradient(45deg, red, purple);
-    border-radius: 50%;
+    border-radius: 0;
     background: linear-gradient(45deg, red, purple);
     width: 50%;
 }
@@ -557,7 +569,7 @@ div.cd-box {
         border: 5px solid;
         border-width: 5px;
         border-image-source: linear-gradient(45deg, red, purple);
-        border-radius: 50%;
+        border-radius: 0;
         background: linear-gradient(45deg, red, purple);
         width: 50%;
     }
