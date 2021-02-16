@@ -150,6 +150,7 @@ body {
 .banner-content h1 {
     font-size: 60px;
     font-family: 'Parisienne', cursive;
+    text-transform: capitalize;
 }
 
 .banner-content p {
@@ -159,7 +160,7 @@ body {
 }
 
 .banner-content .hearts-underline {
-    margin: 1rem 0;
+    margin: 0 0;
 }
 
 #our_stories label {
