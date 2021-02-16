@@ -173,6 +173,7 @@ body {
 
 #our_stories h3 {
     font-size: 30px;
+    margin: 15px 0 10px;
 }
 
 .date-area {
@@ -228,6 +229,11 @@ section h1 {
     border-radius: 0;
     background: linear-gradient(45deg, red, purple);
     width: 50%;
+}
+
+#our_stories .about-couple-title{
+    font-family: 'Lobster Regular';
+    font-size: 25px;
 }
 
 .about-couple {
@@ -465,7 +471,7 @@ div.cd-box {
     background-size: 100%;
     border: 1px solid;
     border-image-slice: 1;
-    border-width: 5px;
+    border-width: 3px;
     border-image-source: linear-gradient(45deg, red, purple);
     border-radius: 10px;
 }
