@@ -205,9 +205,9 @@ section h1 {
 }
 
 .couple-pic {
-    border: 10px solid;
+    border: 8px solid;
     border-image-slice: 1;
-    border-width: 10px;
+    border-width: 8px;
     border-image-source: linear-gradient(45deg, red, purple);
     border-radius: 50%;
     background: linear-gradient(45deg, red, purple);
@@ -413,6 +413,11 @@ div.cd-box {
 
 .testimony-wrap .text {
     height: 200px;
+    overflow: hidden;
+    transition: all 300ms;
+}
+
+.testimony-wrap:hover .text {
     overflow: auto;
 }
 
