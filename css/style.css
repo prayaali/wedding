@@ -580,6 +580,10 @@ div.cd-box {
         width: 50%;
     }
 
+    .reverse-mobile{
+        flex-direction: column-reverse;
+    }
+
     div.cd-box {
         width: 50%;
         margin: 1rem 0;
